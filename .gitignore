@@ -1,0 +1,12 @@
+# Ignore all datasets
+data/
+dataset/
+training_data/
+testing_data/
+
+# Ignore Mac crap
+.DS_Store
+__MACOSX/
+
+# Ignore Windows crap
+*.Zone.Identifier
