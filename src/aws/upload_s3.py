@@ -36,7 +36,7 @@ class S3Uploader:
         self,
         bucket_name: str,
         region: Optional[str] = None,
-        max_retries: int = 3,
+        max_retries: int = 5,
         retry_delay: float = 1.0,
     ):
         """
